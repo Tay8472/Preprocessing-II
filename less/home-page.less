@@ -1,4 +1,16 @@
+#line1 {
+  border-bottom: 2px dashed @navigation-border;
+}
+
+#line2 {
+  border-bottom: 2px dashed @navigation-border;
+}
+
 .home {
+
+  .welcome {
+    margin: 20px 0;
+  }
 
   .content-section {
     margin: 30px 0;
@@ -56,6 +68,16 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn {
+        font-size: 180%;
+        border-radius: 10px;
+        padding: 15px;
+        .button(@eastern-blue, white);
+        display: flex;
+        .center();
+      }
     }
+
   }
 }// home
